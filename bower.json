@@ -17,8 +17,8 @@
     "wow": "~1.1.2",
     "simplegmaps": "~1.0.2",
     "jQuery-One-Page-Nav": "~3.0.0",
-    "jquery": "~2.1.4",
-    "isotope": "~2.2.2"
+    "isotope": "~2.2.2",
+    "jquery": "~2.1.4"
   },
   "devDependencies": {
     "chai": "~3.4.0",
