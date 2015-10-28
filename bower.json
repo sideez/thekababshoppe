@@ -2,7 +2,6 @@
   "name": "dev-tks",
   "private": true,
   "dependencies": {
-    "jquery": "~2.1.4",
     "bootstrap": "~3.3.5",
     "font-awesome": "fontawesome#~4.4.0",
     "animate.css": "~3.4.0",
@@ -17,7 +16,8 @@
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~7.1.1",
     "wow": "~1.1.2",
     "simplegmaps": "~1.0.2",
-    "jQuery-One-Page-Nav": "~3.0.0"
+    "jQuery-One-Page-Nav": "~3.0.0",
+    "jquery": "~2.1.4"
   },
   "devDependencies": {
     "chai": "~3.4.0",
