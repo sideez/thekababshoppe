@@ -270,46 +270,46 @@
      isotope | init Isotope
      --------------------------------------------- */
 
-    // var $container = $(".portfolio:not(.portfolio-masonry)");
-    // if ($.fn.imagesLoaded && $container.length > 0) {
-    //   imagesLoaded($container, function() {
-    //     setTimeout(function() {
-    //       $container.isotope({
-    //         itemSelector: '.portfolio-item',
-    //         layoutMode: 'fitRows',
-    //         filter: '*'
-    //       });
+    var $container = $(".portfolio:not(.portfolio-masonry)");
+    if ($.fn.imagesLoaded && $container.length > 0) {
+      imagesLoaded($container, function() {
+        setTimeout(function() {
+          $container.isotope({
+            itemSelector: '.portfolio-item',
+            layoutMode: 'fitRows',
+            filter: '*'
+          });
 
-    //       $(window).trigger("resize");
-    //       // filter items on button click
-    //     }, 500);
+          $(window).trigger("resize");
+          // filter items on button click
+        }, 500);
 
-    //   });
-    // }
+      });
+    }
 
     /* ---------------------------------------------
      portfolio masonry
      --------------------------------------------- */
 
-    // $(window).load(function() {
+    $(window).load(function() {
 
-    //   var $c = $('.portfolio-masonry');
-    //   if (typeof imagesLoaded == 'function') {
-    //     imagesLoaded($c, function() {
+      var $c = $('.portfolio-masonry');
+      if (typeof imagesLoaded == 'function') {
+        imagesLoaded($c, function() {
 
-    //       setTimeout(function() {
-    //         $c.isotope({
-    //           itemSelector: '.portfolio-item',
-    //           resizesContainer: false,
-    //           layoutMode: 'masonry',
-    //           filter: "*"
-    //         });
-    //       }, 500);
+          setTimeout(function() {
+            $c.isotope({
+              itemSelector: '.portfolio-item',
+              resizesContainer: false,
+              layoutMode: 'masonry',
+              filter: "*"
+            });
+          }, 500);
 
-    //     });
-    //   }
+        });
+      }
 
-    // });
+    });
 
 
     /* ---------------------------------------------

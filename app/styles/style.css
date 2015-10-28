@@ -4701,6 +4701,11 @@ address p {
   margin-right: 20px;
 }
 
+.flex-control-nav {
+    right: 0;
+    left: 15px;
+}
+
 
 @media (min-width: 768px) {  
     header .logo-brand {
@@ -4746,6 +4751,10 @@ address p {
 
 .parallax-contact {
     background-image: url("../images/tks/parallax-contact.png");   
+}
+
+.parallax-contact2 {
+    background-image: url("../images/tks/parallax-contact2.png");   
 }
 
 
