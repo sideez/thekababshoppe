@@ -4701,9 +4701,8 @@ address p {
   margin-right: 20px;
 }
 
-.flex-control-nav {
-    right: 0;
-    left: 15px;
+.post-single .tks-single-slider img {
+    width: 100%;
 }
 
 
@@ -4716,25 +4715,6 @@ address p {
         display: block;
     }
 }
-
-/*@media (max-width: 767px) {  
-
-    header .logo-brand {
-        margin: 0;
-    }
-
-    .banner-box img, .footer-logo > img {
-        width: 100%;
-    }
-
-    .menuzord-responsive .menuzord-menu > li > a {
-        margin: 0;
-    }
-
-    .round-tabs .nav-pills>li+li, .square-tabs .nav-pills>li+li {
-        margin-left: 0; 
-    }
-}*/
 
 /*-----------------------------------------------
     tks parallax images
