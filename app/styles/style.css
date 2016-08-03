@@ -4714,6 +4714,10 @@ address p {
     header.sticky .logo-brand {
         display: block;
     }
+
+    .menuzord-menu>li>a, .menuzord-menu>li>a>i, .dark.menuzord-menu>li>a {
+        color: #fff;
+    }
 }
 
 /*-----------------------------------------------

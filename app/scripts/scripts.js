@@ -89,6 +89,32 @@
     }
 
     /* ---------------------------------------------
+     nav color
+     --------------------------------------------- */
+    // .menuzord-menu>li>a, .menuzord-menu>li>a>i, .dark.menuzord-menu>li>a
+
+    $(window).scroll(function() {
+      var w = $(window).width();
+      if ($(".nav-bottom").length == 0) {
+        if (w > 768) {
+          if ($(this).scrollTop() > 1) {
+            $('.menuzord-menu li a').css("color", "#333");
+          } else {
+            $('.menuzord-menu li a').css("color", "#fff");
+          }
+        }
+      } else {
+        if (w > 768) {
+          if ($(this).scrollTop() > navBottom.top + 100) {
+            $('.menuzord-menu li a').css("color", "#333");
+          } else {
+            $('.menuzord-menu li a').css("color", "#fff");
+          }
+        }
+      }
+    });
+
+    /* ---------------------------------------------
      nav sticky header
      --------------------------------------------- */
 
