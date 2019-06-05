@@ -4625,6 +4625,10 @@ address p {
     the kabab shoppe
 -----------------------------------------------*/
 
+.text-color-secondary {
+    color: rgba(51, 51, 51, 0.8)
+}
+
 .paper-bg {
     background-image: url("../images/tks/paper_bg.png");
     background-repeat: repeat;
